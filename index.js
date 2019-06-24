@@ -8,3 +8,11 @@ function destructivelyAppendDriver (newDriver) {
 function destructivelyPrependDriver (newDriver) {
   drivers.unshift(newDriver);
 };
+
+function destructivelyRemoveLastDriver () {
+  drivers.pop();
+};
+
+function destructivelyRemoveFirstDriver () {
+  drivers.shift();
+};
