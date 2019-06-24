@@ -1,5 +1,5 @@
 // Write your solution here!
-let drivers = [];
+let drivers = ["Miles", "Otis", "Garfield"];
 
 function destructivelyAppendDriver (driversArr) {
   // body...
